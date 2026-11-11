@@ -1,7 +1,0 @@
-{
-  "name": "Metrics Group Research Environment",
-  "build": {
-    "dockerfile": "../environment/Dockerfile",
-    "context": ".."
-  }
-}
