@@ -13,3 +13,9 @@ RUN apt-get update && \
 
 # Verify both languages are available
 RUN python --version && R --version
+
+# Install Python packages
+COPY environment/requirements.txt /tmp/requirements.txt
+
+RUN python -m pip install --no-cache-dir \
+    -r /tmp/requirements.txt
