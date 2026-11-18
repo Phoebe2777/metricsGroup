@@ -3,5 +3,13 @@
   "build": {
     "dockerfile": "../environment/Dockerfile",
     "context": ".."
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "REditorSupport.r"
+      ]
+    }
   }
 }
