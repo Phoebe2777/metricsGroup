@@ -1,0 +1,18 @@
+# Data manipulation
+numpy
+pandas
+scipy
+
+# Statistical analysis
+statsmodels
+scikit-learn
+
+# Data visualization
+matplotlib
+seaborn
+
+# Web scraping and text analysis
+requests
+beautifulsoup4
+lxml
+nltk
