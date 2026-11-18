@@ -19,3 +19,6 @@ COPY environment/requirements.txt /tmp/requirements.txt
 
 RUN python -m pip install --no-cache-dir \
     -r /tmp/requirements.txt
+    
+# Check Python package dependencies
+RUN python -m pip check
